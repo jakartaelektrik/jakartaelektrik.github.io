@@ -1026,6 +1026,7 @@ figure.effect-julia:hover p {
   display: inline-block;
   max-width: 55px;
   width: 100%;
+  /* margin-right:10px; */
 }
 
 .contact-section .contact-details ul li a {

@@ -1,0 +1,45 @@
+.whatsapp-icon {
+    /* position: fixed; */
+    /* left: 20px; */
+    /* bottom: 20px; */
+    margin-left: 15px; /*  Adjust as needed */
+    margin-right:5px;
+
+    /* Customize icon styles (e.g., font-size, color) */
+}
+
+
+/* Basic link styling */
+.whatsapp-link {
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(255, 255, 255); /* Default text color */
+    font-family: Arial, sans-serif; /* Font family for the text */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scale */
+}
+
+/* Hover effect */
+.whatsapp-link:hover {
+    color: #25D366; /* Change text color on hover (WhatsApp green) */
+    transform: scale(1.1); /* Slightly enlarge the link on hover */
+}
+
+/* Optional: add a hover effect for the icon if you want */
+/* .whatsapp-link:hover .whatsapp-icon {
+    color: #25D366; 
+} */
+
+
+.small-font {
+    font-size: 0.8em;
+}
+
+.icon {
+    display: inline-block;
+    width: 36px; /* Adjust as needed */
+    height: 36px; /* Adjust as needed */
+    background-image: url('../../../media/images/tokopedia-icon.png');
+    background-size: cover; /* Ensures the image covers the container */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    vertical-align: middle; /* Aligns with text vertically */
+    /* margin-right: 8px; */
+}
