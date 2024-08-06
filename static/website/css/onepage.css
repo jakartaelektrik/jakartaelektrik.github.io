@@ -240,8 +240,11 @@ header h1 {
     text-align: center;
 }
 .product img {
+    height: 200px; /* Set the height of the image */
+    width: auto; /* Automatically adjust width to maintain aspect ratio */
+    object-fit: cover; /* Ensure image covers the specified height without distortion */
+    margin-bottom: 8px;
     max-width: 100%;
-    height: auto;
     border-radius: 8px;
 }
 .product h2 {
