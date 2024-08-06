@@ -602,10 +602,10 @@ textarea.form-control {
 }
 
 .section {
-  height: 100vh;
-  min-height: 700px;
-  display: flex;
-  align-items: center;
+  /* height: 100vh;
+  min-height: 700px; */
+  /* display: flex; */
+  /* align-items: center; */
 }
 
 /* <<< Banner side >>> */
@@ -1109,12 +1109,12 @@ figure.effect-julia:hover p {
 
 @media (max-width: 991px) {
   .section {
-    height: auto;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    /* height: auto;
+    min-height: 100vh; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
   }
 
   .banner-section { padding-top: 0; }

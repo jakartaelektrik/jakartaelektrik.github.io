@@ -43,3 +43,27 @@
     vertical-align: middle; /* Aligns with text vertically */
     /* margin-right: 8px; */
 }
+
+
+.section-intro{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.section-custom{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dropdown-menu {
+    margin-top: 0; /* Adjust as needed */
+    margin-bottom: 0; /* Ensure there's no extra space at the bottom */
+    padding: 0.5rem 0; /* Adjust padding to fit your design */
+    border-radius: 0.25rem; /* Optional: match the border radius with your design */
+}
+
+/* nav dropdown left */
+.dropdown-menu-left {
+    left: auto;
+    right: 100%;
+    margin-right: 10px; /* Adjust this margin as needed */
+}

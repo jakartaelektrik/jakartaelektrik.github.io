@@ -331,13 +331,15 @@ textarea.form-control {
 .navbar {
   padding: 0;
   margin-bottom: 0;
+  /* height: 100% !important; */
+
 }
 .navbar-custom{
  background-image:linear-gradient(150deg, rgb(11 147 63 )40% ,rgb(21 75 163)  ); 
 }
 .navbar .navbar-collapse {
   display: flex;
-  height: 100% !important;
+  height: 50% !important;
   padding-left: 61px;
   padding-right: 61px;
 }
@@ -367,7 +369,7 @@ textarea.form-control {
 .navbar .navbar-nav > .nav-item {
   font-weight: 500;
   font-size: 18px;
-  background-image: url(../img/menu-item-bg.png);
+  background-image: url(../../../media/img/menu-item-bg.png);
   background-position: left center;
   background-repeat: no-repeat;
   min-height: 82px;
