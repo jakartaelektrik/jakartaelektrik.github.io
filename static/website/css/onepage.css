@@ -719,3 +719,36 @@ header h1 {
     .nav-link .fa-2x { font-size: 1.2em; }  
   }
   
+
+
+
+.size_contacts{
+    /* display:flex; */
+    position: relative;
+    font-size:20px !important;
+    /* margin-bottom:10px; */
+
+}
+/* .size_contacts p{
+    text-align: center;
+    font-size:30px;
+
+} */
+
+@media (max-width: 768px) {
+    .size_contacts {
+      font-size: 15px !important;/* Smaller font-size for tablets and phones */
+      height:400px;
+      margin-bottom: 20px;
+
+    }
+  }
+
+  @media (max-width: 480px) {
+    .size_contacts {
+      font-size: 15px !important; /* Smaller font-size for tablets and phones */
+      height:400px;
+      margin-bottom: 20px;
+
+    }
+  }
