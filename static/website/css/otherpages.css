@@ -1,0 +1,71 @@
+/* halaman brief insight */
+
+
+.section-brief{
+    display: flex;
+    /* margin-top:10px; */
+    margin-bottom:10px;
+    /* margin:auto; */
+    /* margin:20px 0px 20 0px; */
+    align-items: center;
+    height:100vh;
+    background: linear-gradient(to right,rgb(11 147 63 ) 20%, rgb(21 75 163) 20%); /* Two-color gradient */
+
+}
+.section-brief h2{
+    color:#ffff;
+}
+.section-brief p{
+    color:#ffff;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    /* margin-top: 20px; */
+    /* height:500px; */
+
+}
+.section-briefcustom{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: rgb(21 75 163); */
+
+}
+
+
+.line {
+    position: relative;
+    padding: 10px 0;
+    width: 100%;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.line::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width of the parent element */
+    height: 3px; /* Adjust thickness */
+    background-color: rgb(255, 255, 255); /* Line color */
+}
+
+
+.section-brief2{    
+    display: flex;
+    /* margin-top:10px; */
+    margin-bottom:10px;
+    /* margin:auto; */
+    /* margin:20px 0px 20 0px; */
+    align-items: center;
+    height:100vh;
+    
+}
+
+.section-brief2custom{
+    display: flex;
+    flex-wrap: wrap;
+    height:100vh;
+    width:100%;
+    filter:blur(200px);
+    /* background-color: rgb(21 75 163); */
+}
