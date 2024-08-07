@@ -724,9 +724,10 @@ header h1 {
 
 .size_contacts{
     /* display:flex; */
-    position: relative;
+    /* position: relative; */
     font-size:15px !important;
     /* margin-bottom:10px; */
+    height:40vh;
 
 }
 /* .size_contacts p{
