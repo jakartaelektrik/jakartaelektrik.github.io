@@ -131,17 +131,19 @@
 
 .section-intro{
     display: flex;
+    text-align: center;
     /* margin-top:10px; */
     margin-bottom:10px;
     /* margin:auto; */
     /* margin:20px 0px 20 0px; */
     align-items: center;
     height:200px;
+    width: 100%;
     background: linear-gradient(to right,rgb(11 147 63 ) 50%, rgb(21 75 163) 50%); /* Two-color gradient */
 
 }
 .section-intro p{
-    color:#ffff;
+    color:#ffffff;
     text-align: center;
     padding: 10px 10px 10px 10px;
     /* margin-top: 20px; */
@@ -152,7 +154,6 @@
     display: flex;
     flex-wrap: wrap;
     /* background-color: rgb(21 75 163); */
-
 }
 
 .dropdown-menu {
@@ -753,3 +754,5 @@ header h1 {
 
     }
   }
+
+
